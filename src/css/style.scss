@@ -1,11 +1,14 @@
 .container {
   color: #3372e6;
-  display: flex;
   flex-direction: column;
 }
 div {
+  display: flex;
   img {
     height: 100px;
     width: 100px;
+  }
+  p {
+    line-height: 100px;
   }
 }
